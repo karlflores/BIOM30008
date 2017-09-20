@@ -26,11 +26,11 @@ end
 
 if BR <= 8
   score = score + 2
-else if BR >= 9 %% BR <=14
+else if BR >= 9 && BR <=14
   score = score
-else if BR >= 15 %% BR <=20
+else if BR >= 15 && BR <=20
   score = score + 1
-else if BR >= 21 %% BR <=29
+else if BR >= 21 && BR <=29
   score = score + 2
 else if BR >= 29
   score = score + 3
